@@ -1,0 +1,81 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inline {
+    display: inline;
+}
+nav {
+    display: flex;
+}
+
+a {
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    background-image: url(/aset/logo.revou.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.banner {
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+
+.foto-1 {
+    background-image: url(/aset/kny\ 1236_1.png);
+}
+
+.foto-2 {
+    background-image: url(/aset/one\ piece.png);
+}
+
+.foto-3 {
+    background-image: url(/aset/bnh.png);
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    background-image: url(/aset/logo.revou.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.profile-iconi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-iconi>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* max-width akan menerapkan style di bawah ukuran yang di tentukan
+min-width akan menerapkan style di atas ukuran yang di tentukan */
+@media only screen and (max-width: 375px) {
+    .main-header {
+        flex-direction: column;
+    }
+
+}
